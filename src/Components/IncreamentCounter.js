@@ -6,11 +6,16 @@ const IncDecfunction = () => {
     if (count <= 15) {
       setCount(count + 1);
     } else {
-      alert("we can go beyon 0");
+      alert("Exceed Limit");
     }
   };
   const seDecValue = () => {
-    setCount(count - 1);
+    if(count>0){
+      setCount(count - 1);
+    }
+    else{
+            alert("we can go beyond 0");
+    }
   };
 
   return (
