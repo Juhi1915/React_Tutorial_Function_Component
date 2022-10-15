@@ -1,2 +1,3 @@
 # React_Tutorial_Function_Component
-Created with CodeSandbox
+
+In this Repo I have added the code for React js concept so that it will be helpful for all of us.
